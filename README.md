@@ -4,4 +4,5 @@
 ### Table of contents <a id="Table-of-contents"></a>
 
 * [⬆️ @UpOnlyTV](./UpOnlyTV)
-  * [Hasu - Sep 23, 2021](./UpOnlyTV/Hasu)
+  * [Ari Paul - Oct 14, 2021](./UpOnlyTV/Ari_Paul_10_14_2021.md) 
+  * [Hasu - Sep 23, 2021](./UpOnlyTV/Hasu_09_23_2021.md)
