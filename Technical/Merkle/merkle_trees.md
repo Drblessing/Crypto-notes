@@ -1,4 +1,4 @@
-Merkle trees are a tree data structure which includes hashes of data and are designed to improve the scalability of a blockchain by reducing the amount of data and computation needed to verify transactions.
+Merkle trees are a data structure which includes hashes of data and are designed to improve the scalability of a blockchain by reducing the amount of data and computation needed to verify transactions.
 
 Resources:
 - [VB on Merkling](https://blog.ethereum.org/2015/11/15/merkling-in-ethereum/)

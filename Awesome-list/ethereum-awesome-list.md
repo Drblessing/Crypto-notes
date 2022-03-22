@@ -1,7 +1,7 @@
 ## Nodes
 - Infura
 - Quicknode
-- Archive (best free tier?)
+- Alchemy
 
 ## Development
 - web3.js
