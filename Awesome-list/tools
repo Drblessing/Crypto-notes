@@ -1,15 +1,25 @@
-#Nodes
+# Nodes
+
 - Infura
 - Quicknode
 - Alchemy
 - Geth vps
 
-#Development
+# Development
+
 - web3.js/py
-- truffle development networks and migration
-- ganache mainnet fork 
-- hardhat
-- remix 
-- OpenZeppelin contract suite 
-- OpenZeppelin defender relay
-- Bloxroute private transactions
+- Truffle - development networks and migration
+- Ganache - mainnet fork
+- Hardhat
+- Remix
+- OpenZeppelin - contract suite/defender relay
+- Bloxroute - private transactions
+- Solidity
+- Testnets - Kovan, Goerli
+- Etherscan
+- Binary Ninja - contract binary decoding
+
+# Wallets
+
+- Metamask
+- Ledger
