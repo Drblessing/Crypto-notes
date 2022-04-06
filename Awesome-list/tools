@@ -1,10 +1,10 @@
-# Nodes
+#Nodes
 - Infura
 - Quicknode
 - Alchemy
 - Geth vps
 
-# Development
+#Development
 - web3.js/py
 - truffle development networks and migration
 - ganache mainnet fork 
