@@ -1,13 +1,14 @@
-## Nodes
+# Nodes
 - Infura
 - Quicknode
 - Alchemy
+- Geth vps
 
-## Development
-- web3.js
-- web3.py
+# Development
+- web3.js/py
 - truffle development networks and migration
 - ganache mainnet fork 
+- hardhat
 - remix 
 - OpenZeppelin contract suite 
 - OpenZeppelin defender relay
