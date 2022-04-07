@@ -56,7 +56,6 @@ module.exports = {
     // NB: It's important to wrap the provider as a function.
     kovan: {
     provider: () => new HDWalletProvider(mnemonic, `https://kovan.infura.io/v3/${projectId}}`),
-    // host: "https://kovan.infura.io",
     network_id: 42,       // Ropsten's id
     // port: 8545
     // gas: 5500000,        // Ropsten has a lower block limit than mainnet
