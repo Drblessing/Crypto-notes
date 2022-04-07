@@ -10,7 +10,8 @@
 - Deploy mortal faucet on local ganache through truffle ✅
 - Deploy tokens with a faucet in the constructor and seed it on truffle ✅
 - Create event and emit it on truffle ganache ✅
-- Mess around with raw call and delegate call ganache
+- Query the logs, storage, code, and transaction receipt of delpoyed contract through web3.js and truffle console ✅
+- Mess around with raw call and delegate call ganache ✅
 - Import latest erc20 implementation in truffle contract and deploy
 - Run a swarm node
 - Run an ipfs node
