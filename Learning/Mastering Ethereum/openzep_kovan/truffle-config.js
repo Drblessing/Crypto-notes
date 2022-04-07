@@ -18,7 +18,7 @@
  *
  */
 
-const { projectId, mnemonic } = require('./secrets.json');
+const { projectId, mnemonic, etherscan_api } = require('./secrets.json');
 const HDWalletProvider = require('@truffle/hdwallet-provider');
 module.exports = {
   /**
@@ -55,7 +55,7 @@ module.exports = {
     // Useful for deploying to a public network.
     // NB: It's important to wrap the provider as a function.
     kovan: {
-    provider: () => new HDWalletProvider(mnemonic, `https://kovan.infura.io/v3/${projectId}}`),
+    provider: () => new HDWalletProvider(mnemonic, `https://kovan.infura.io/v3/${projectId}`),
     network_id: 42,       // Ropsten's id
     // port: 8545
     // gas: 5500000,        // Ropsten has a lower block limit than mainnet
@@ -90,6 +90,12 @@ module.exports = {
       // }
     }
   },
+  plugins: [
+    'truffle-plugin-verify'
+  ],
+  api_keys: {
+    etherscan: `${etherscan_api}`
+  }
 
   // Truffle DB is currently disabled by default; to enable it, change enabled:
   // false to enabled: true. The default storage location can also be
