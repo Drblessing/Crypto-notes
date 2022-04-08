@@ -12,6 +12,4 @@
 - Create event and emit it on truffle ganache ✅
 - Query the logs, storage, code, and transaction receipt of delpoyed contract through web3.js and truffle console ✅
 - Mess around with raw call and delegate call ganache ✅
-- Import latest erc20 implementation in truffle contract and deploy
-- Run a swarm node
-- Run an ipfs node
+- Import latest erc20 oz implementation and deploy ✅
