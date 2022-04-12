@@ -5,7 +5,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract GoldToken is ERC20, Ownable {
-    constructor() ERC20("Gold", "MAO") {}
+    constructor() ERC20("PortfolioToken", "PRT") {}
 
     function mint(address to, uint256 amount) public onlyOwner {
         _mint(to, amount);
